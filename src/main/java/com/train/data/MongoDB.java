@@ -49,10 +49,6 @@ public class MongoDB implements Data {
 		}
 		return client;
 	}
-
-	private Station toStation(String line, Document doc) {
-		return new Station(line, doc.getString("start"));
-	}
 	
 	private static PathInLine toPathInLine(String line, Document doc) {
 		return new PathInLine(new Station(line, doc.getString("start")), new Station(line, doc.getString("destination")), doc.getDouble("fare"), doc.getString("remark"));
