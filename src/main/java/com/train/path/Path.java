@@ -3,10 +3,10 @@ package com.train.path;
 import java.util.List;
 
 public class Path {
-	private List<PathSameLine> path;
+	private List<PathInLine> path;
 	
-	public void add(PathSameLine pathSL) {
-		path.add(pathSL);
+	public void add(PathInLine pathIL) {
+		path.add(pathIL);
 	}
 	
 	@Override

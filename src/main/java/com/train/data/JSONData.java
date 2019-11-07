@@ -2,19 +2,19 @@ package com.train.data;
 
 import java.util.List;
 
-import com.train.path.Path;
-import com.train.path.PathSameLine;
+import com.train.path.PathInLine;
+import com.train.path.Station;
 
 public class JSONData implements Data {
 
 	@Override
-	public List<String> getLine() {
+	public List<String> getLines() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public PathSameLine getPath(String start, String dest) {
+	public PathInLine getPath(Station start, Station dest) {
 		// TODO Auto-generated method stub
 		return null;
 	}

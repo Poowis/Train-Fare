@@ -1,12 +1,12 @@
 package com.train.path;
 
-public class PathSameLine {
-	private String start;
-	private String destination;
-	private int fare;
+public class PathInLine {
+	private Station start;
+	private Station destination;
+	private float fare;
 	private String remark;
 
-	public PathSameLine(String start, String destination, int fare, String remark) {
+	public PathInLine(Station start, Station destination, int fare, String remark) {
 		super();
 		this.start = start;
 		this.destination = destination;
@@ -14,23 +14,23 @@ public class PathSameLine {
 		this.remark = remark;
 	}
 
-	public String getStart() {
+	public Station getStart() {
 		return start;
 	}
 
-	public void setStart(String start) {
+	public void setStart(Station start) {
 		this.start = start;
 	}
 
-	public String getDestination() {
+	public Station getDestination() {
 		return destination;
 	}
 
-	public void setDestination(String destination) {
+	public void setDestination(Station destination) {
 		this.destination = destination;
 	}
 
-	public int getFare() {
+	public float getFare() {
 		return fare;
 	}
 

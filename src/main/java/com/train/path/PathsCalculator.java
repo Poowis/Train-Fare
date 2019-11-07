@@ -2,7 +2,7 @@ package com.train.path;
 
 public class PathsCalculator {
 	
-	public static Paths findPaths(String start, String destination) {
+	public static Paths findPaths(Station start, Station destination) {
 		Paths paths;
 		
 		
@@ -15,7 +15,7 @@ public class PathsCalculator {
 		return null;
 	}
 	
-	public PathSameLine findPathSameLine() {
+	public PathInLine findPathInLine(Station start, Station destination) {
 		return null;
 	}
 }
