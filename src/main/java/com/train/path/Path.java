@@ -9,6 +9,12 @@ public class Path {
 		path.add(pathIL);
 	}
 	
+	
+	@Override
+	public boolean equals(Object obj) {
+		
+		return super.equals(obj);
+	}
 	@Override
 	public String toString() {
 		String returnString = "";

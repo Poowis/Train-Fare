@@ -3,10 +3,10 @@ package com.train.path;
 public class PathInLine {
 	private Station start;
 	private Station destination;
-	private float fare;
+	private double fare;
 	private String remark;
 
-	public PathInLine(Station start, Station destination, int fare, String remark) {
+	public PathInLine(Station start, Station destination, double fare, String remark) {
 		super();
 		this.start = start;
 		this.destination = destination;
@@ -30,7 +30,7 @@ public class PathInLine {
 		this.destination = destination;
 	}
 
-	public float getFare() {
+	public double getFare() {
 		return fare;
 	}
 
@@ -46,6 +46,16 @@ public class PathInLine {
 		this.remark = remark;
 	}
 
+	@Override
+	public boolean equals(Object obj) {
+		PathInLine tmp = (PathInLine) obj;
+		if (start == tmp.getStart() && destination == tmp.destination) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
 	@Override
 	public String toString() {
 		return start + " -> " + destination + " : " + fare + " ***" + remark + "***";

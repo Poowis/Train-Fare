@@ -25,6 +25,16 @@ public class Station {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		Station tmp = (Station) obj;
+		if (line == tmp.getLine() && name == tmp.getName()) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 
 	@Override
 	public String toString() {
