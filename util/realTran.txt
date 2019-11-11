@@ -1,0 +1,98 @@
+A3	Ban Thap Chang	บ้านทับช้าง				
+A4	Hua Mak	หัวหมาก				
+A2	Lat Krabang	ลาดกระบัง				
+A6	Makkasan	มักกะสัน				
+A8	Phaya Thai ARL	พญาไท				
+A5	Ramkhamhaeng	รามคำแหง				
+A7	Ratchaprarop	ราชปรารภ				
+A1	Suvarnabhumi	สุวรรณภูมิ				
+N5	Ari	อารีย์				
+E4	Asok	อโศก				
+E10	Bang Chak	บางจาก				
+E13	Bang Na	บางนา				
+S12	Bang Wa BTS	บางหว้า				
+E14	Bearing	แบริ่ง				
+E17	Chang Erawan	ช้างเอราวัณ				
+E1	Chit Lom	ชิดลม				
+S3	Chong Nonsi	ช่องนนทรี				
+E7	Ekkamai	เอกมัย				
+N9	Ha Yaek Lat Phrao	ห้าแยกลาดพร้าว				
+E23	Kheha	เคหะฯ				
+S7	Krung Thon Buri	กรุงธนบุรี				
+N8	Mo Chit	หมอชิต				
+E3	Nana	นานา				
+W1	National Stadium	สนามกีฬาแห่งชาติ				
+E9	On Nut	อ่อนนุช				
+E19	Pak Nam	ปากน้ำ				
+N2	Phaya Thai BTS	พญาไท				
+E2	Phloen Chit	เพลินจิต				
+S9	Pho Nimit	โพธิ์นิมิตร				
+E21	Phraek Sa	แพรกษา				
+E8	Phra Khanong	พระโขนง				
+E5	Phrom Phong	พร้อมพงษ์				
+E16	Pu Chao	ปู่เจ้า				
+E11	Punnawithi	ปุณณวิถี				
+S1	Ratchadamri	ราชดำริ				
+N1	Ratchathewi	ราชเทวี				
+E18	Royal Thai Naval Academy	โรงเรียนนายเรือ				
+S2	Sala Daeng	ศาลาแดง				
+E22	Sai Luat	สายลวด				
+E15	Samrong	สำโรง				
+N4	Sanam Pao	สนามเป้า				
+N7	Saphan Khwai	สะพานควาย				
+S6	Saphan Taksin	สะพานตากสิน				
+E20	Srinagarindra	ศรีนครินทร์				
+S5	Surasak	สุรศักดิ์				
+S10	Talat Phlu	ตลาดพลู				
+E6	Thong Lo	ทองหล่อ				
+E12	Udom Suk	อุดมสุข				
+N3	Victory Monument	อนุสาวรีย์ชัยสมรภูมิ				
+S8	Wongwian Yai	วงเวียนใหญ่				
+S11	Wutthakat	วุฒากาศ				
+CEN	Siam	สยาม	
+BL37	Bang Khae	บางแค				
+PP10	Bang Krasor	บางกระสอ				
+BL33	Bang Phai	บางไผ่				
+PP04	Bang Phlu	บางพลู				
+PP06	Bang Rak Noi Tha It	บางรักน้อย-ท่าอิฐ				
+PP05	Bang Rak Yai	บางรักใหญ่				
+PP15	Bang Son	บางซ่อน				
+BL11	Bang Sue	บางซื่อ				
+BL34	Bang Wa MRT	บางหว้า				
+BL13	Chatuchak Park	สวนจตุจักร				
+BL28	Hua Lamphong	หัวลำโพง				
+BL18	Huai Khwang	ห้วยขวาง				
+BL32	Itsaraphap	อิสรภาพ				
+BL12	Kamphaeng Phet	กำแพงเพชร				
+PP01	Khlong Bang Phai	คลองบางไผ่				
+BL24	Khlong Toei	คลองเตย				
+BL38	Lak Song	หลักสอง				
+BL15	Lat Phrao	ลาดพร้าว				
+BL25	Lumphini	ลุมพินี				
+PP12	Ministry of Public Health	กระทรวงสาธารณสุข				
+PP11	Nonthaburi Civic Center	ศูนย์ราชการนนทบุรี				
+BL14	Phahon Yothin	พหลโยธิน				
+BL36	Phasi Charoen	ภาษีเจริญ				
+BL21	Phetchaburi	เพชรบุรี				
+BL35	Phetkasem 48	เพชรเกษม48				
+PP08	Phra Nang Klao Bridge	สะพานพระนั่งเกล้า				
+BL20	Phra Ram 9	พระราม9				
+BL23	Queen Sirikit National Convention Centre	ศูนย์การประชุมแห่งชาติสิริกิติ์				
+BL16	Ratchadaphisek	รัชดาภิเษก				
+PP07	Sai Ma	ไทรม้า				
+PP03	Sam Yaek Bang Yai	สามแยกบางใหญ่				
+BL27	Sam Yan	สามย่าน				
+BL30	Sam Yot	สามยอด				
+BL31	Sanam Chai	สนามไชย				
+BL26	Si Lom	สีลม				
+BL22	Sukhumvit	สุขุมวิท				
+BL17	Sutthisan	สุทธิสาร				
+PP02	Talad Bang Yai	ตลาดบางใหญ่				
+BL19	Thailand Cultural Centre	ศูนย์วัฒนธรรมแห่งประเทศไทย				
+BL01	Tha Phra	ท่าพระ				
+BL29	Wat Mangkon	วัดมังกร				
+PP14	Wong Sawang	วงศ์สว่าง				
+PP09	Yaek Nonthaburi 1	แยกนนทบุรี1				
+PP13	Yaek Tiwanon	แยกติวานนท์				
+PP16     Tao Poon เตาปูน
+BL10 Tao Poon เตาปูน

@@ -7,6 +7,6 @@ import com.train.path.Station;
 
 
 public interface Data {
-	List<String> getLines();
+	List<PathInLine> getLines(String line);
 	PathInLine getPath(Station start, Station dest);
 }

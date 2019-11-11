@@ -45,6 +45,10 @@ public class PathInLine {
 	public void setRemark(String remark) {
 		this.remark = remark;
 	}
+	
+	public boolean isBridge() {
+		return !start.getLine().equalsIgnoreCase(destination.getLine());
+	}
 
 	@Override
 	public boolean equals(Object obj) {
