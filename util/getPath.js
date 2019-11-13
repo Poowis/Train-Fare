@@ -11,7 +11,7 @@ async function getPath() {
             document.querySelector("#Station_From").selectedIndex = i + 1;
             document.querySelector("#Station_To").selectedIndex = j + 1;
             document.querySelector("#find_station").click()
-            await sleep(100);
+            await sleep(2000);
             let tmp = [];
             tmp.push(document.querySelector("#Station_From").selectedOptions[0].innerText);
             tmp.push(document.querySelector("#Station_To").selectedOptions[0].innerText);
@@ -24,7 +24,7 @@ async function getPath() {
     }
     return out;
 }
-console.log(getPath());
+getPath();
 
 
 
