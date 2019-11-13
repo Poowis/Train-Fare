@@ -26,6 +26,19 @@ for x in f:
 #     time = l[3]
 # print(count)
 
+#[start][dest]
+index = []
+f = open(fileName+"-test.txt", "r", encoding="utf8")
+for x in f:
+    index.append(x.strip())
+print(index)
+
+normal = []
+f = open(fileName+"-normal.txt", "r", encoding="utf8")
+for x in f:
+    normal.append(json.loads("["+x.strip().replace(" ", ", ")+"]"))
+print(index.index("N8"), index.index("S8"))
+print(normal[index.index("S12")][index.index("S8")])
+
 with open(fileName+'_new.json', 'w') as outfile:
     json.dump(temp, outfile, indent=2)
-
