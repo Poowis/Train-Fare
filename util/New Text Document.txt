@@ -1,0 +1,1 @@
+mongoimport --db trainFare --collection tt1 --drop --file test.json --port "9000" --username poowis42 --password kumpai42 --authenticationDatabase admin --jsonArray
