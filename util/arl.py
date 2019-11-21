@@ -1,14 +1,24 @@
 import json
 fileName = "arl"
 
+with open('realTran_new.json') as json_file:
+    data = json.load(json_file)
+
+
+def tran(text):
+    for i in data:
+        if i["ENG"].lower() == text.lower():
+            return i["station"]
+
+
 f = open(fileName+".txt", "r", encoding="utf8")
 temp = []
 for x in f:
     tmp = {}
     l = json.loads(x.strip())
-    tmp["start"] = l[0]
-    tmp["destination"] = l[1]
-    tmp["price"] = int(l[2].replace(' Baht', ''))
+    tmp["start"] = tran(l[0])
+    tmp["destination"] = tran(l[1])
+    tmp["normal"] = int(l[2].replace(' Baht', ''))
     tmp["time"] = int(l[3].replace(' Minute', ''))
     tmp["remark"] = ""
     temp.append(tmp)

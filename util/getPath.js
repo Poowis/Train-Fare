@@ -29,7 +29,25 @@ async function getPath() {
 getPath();
 
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
+for (let i of document.querySelectorAll("#listFromBLL li > button, #listFromPPL li > button")) {
+    await sleep(500);
+    document.getElementById("station1").click();
+    await sleep(500);
+    i.click();
+    for (let j of document.querySelectorAll("#listToBLL li > button, #listToPPL li > button")) {
+        await sleep(500);
+        document.getElementById("station2").click();
+        await sleep(500);
+        j.click();
+        await sleep(500);
+        document.querySelector("#Fare1 > div > div.transitWrapper > div > div.calculationForm > div > div.formholder.hidden-lg.hidden-md > div > div.gen-button > button").click();
+    }
+    break;
+}
 
 
 
